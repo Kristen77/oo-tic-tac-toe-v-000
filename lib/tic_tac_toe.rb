@@ -98,7 +98,6 @@ def winner
   if index == nil
     return nil
   else
-    binding.pry
     if @board[index[0]] == "X"
       return "X"
     else
