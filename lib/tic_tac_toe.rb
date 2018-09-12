@@ -1,4 +1,4 @@
-
+require 'pry' 
 class TicTacToe
   
    def initialize
@@ -98,6 +98,7 @@ def winner
   if index == false
     return nil
   else
+    binding.pry
     if @board[index[0]] == "X"
       return "X"
     else
