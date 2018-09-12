@@ -95,7 +95,7 @@ class TicTacToe
 def winner
   @board.index
   index = won?
-  if index == false
+  if index == nil
     return nil
   else
     binding.pry
